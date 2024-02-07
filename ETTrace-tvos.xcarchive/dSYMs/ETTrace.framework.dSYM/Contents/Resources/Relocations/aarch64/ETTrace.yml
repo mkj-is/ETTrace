@@ -1,0 +1,309 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/matej.jirasek/Library/Developer/Xcode/DerivedData/ETTrace-fzujomgjcnqcuogobrtwffnyibea/Build/Intermediates.noindex/ArchiveIntermediates/ETTrace/InstallationBuildProductsLocation/Library/Frameworks/ETTrace.framework/ETTrace'
+relocations:
+  - { offsetInCU: 0x27, offset: 0x84E67, size: 0x8, addend: 0x0, symName: '-[EMGChannelListener init]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x50 }
+  - { offsetInCU: 0x10B, offset: 0x84F4B, size: 0x8, addend: 0x0, symName: '-[EMGChannelListener init]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x50 }
+  - { offsetInCU: 0x142, offset: 0x84F82, size: 0x8, addend: 0x0, symName: '-[EMGChannelListener setupChannel]', symObjAddr: 0x50, symBinAddr: 0x4050, symSize: 0xDC }
+  - { offsetInCU: 0x1DC, offset: 0x8501C, size: 0x8, addend: 0x0, symName: '___34-[EMGChannelListener setupChannel]_block_invoke', symObjAddr: 0x12C, symBinAddr: 0x412C, symSize: 0x64 }
+  - { offsetInCU: 0x23B, offset: 0x8507B, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x190, symBinAddr: 0x4190, symSize: 0x28 }
+  - { offsetInCU: 0x264, offset: 0x850A4, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x1B8, symBinAddr: 0x41B8, symSize: 0x28 }
+  - { offsetInCU: 0x283, offset: 0x850C3, size: 0x8, addend: 0x0, symName: '-[EMGChannelListener ioFrameChannel:shouldAcceptFrameOfType:tag:payloadSize:]', symObjAddr: 0x1E0, symBinAddr: 0x41E0, symSize: 0xA4 }
+  - { offsetInCU: 0x2F2, offset: 0x85132, size: 0x8, addend: 0x0, symName: '-[EMGChannelListener ioFrameChannel:didReceiveFrameOfType:tag:payload:]', symObjAddr: 0x284, symBinAddr: 0x4284, symSize: 0xE0 }
+  - { offsetInCU: 0x390, offset: 0x851D0, size: 0x8, addend: 0x0, symName: '-[EMGChannelListener ioFrameChannel:didEndWithError:]', symObjAddr: 0x364, symBinAddr: 0x4364, symSize: 0x6C }
+  - { offsetInCU: 0x3DF, offset: 0x8521F, size: 0x8, addend: 0x0, symName: '-[EMGChannelListener ioFrameChannel:didAcceptConnection:fromAddress:]', symObjAddr: 0x3D0, symBinAddr: 0x43D0, symSize: 0xD0 }
+  - { offsetInCU: 0x43E, offset: 0x8527E, size: 0x8, addend: 0x0, symName: '-[EMGChannelListener sendReportCreatedMessage]', symObjAddr: 0x4A0, symBinAddr: 0x44A0, symSize: 0x64 }
+  - { offsetInCU: 0x481, offset: 0x852C1, size: 0x8, addend: 0x0, symName: '___46-[EMGChannelListener sendReportCreatedMessage]_block_invoke', symObjAddr: 0x504, symBinAddr: 0x4504, symSize: 0x2C }
+  - { offsetInCU: 0x4B8, offset: 0x852F8, size: 0x8, addend: 0x0, symName: '-[EMGChannelListener sendReportData]', symObjAddr: 0x530, symBinAddr: 0x4530, symSize: 0x200 }
+  - { offsetInCU: 0x5E7, offset: 0x85427, size: 0x8, addend: 0x0, symName: '___36-[EMGChannelListener sendReportData]_block_invoke', symObjAddr: 0x730, symBinAddr: 0x4730, symSize: 0xC }
+  - { offsetInCU: 0x64B, offset: 0x8548B, size: 0x8, addend: 0x0, symName: '-[EMGChannelListener serverChannel]', symObjAddr: 0x73C, symBinAddr: 0x473C, symSize: 0x18 }
+  - { offsetInCU: 0x682, offset: 0x854C2, size: 0x8, addend: 0x0, symName: '-[EMGChannelListener setServerChannel:]', symObjAddr: 0x754, symBinAddr: 0x4754, symSize: 0xC }
+  - { offsetInCU: 0x6C3, offset: 0x85503, size: 0x8, addend: 0x0, symName: '-[EMGChannelListener peerChannel]', symObjAddr: 0x760, symBinAddr: 0x4760, symSize: 0x18 }
+  - { offsetInCU: 0x6FA, offset: 0x8553A, size: 0x8, addend: 0x0, symName: '-[EMGChannelListener setPeerChannel:]', symObjAddr: 0x778, symBinAddr: 0x4778, symSize: 0xC }
+  - { offsetInCU: 0x73B, offset: 0x8557B, size: 0x8, addend: 0x0, symName: '-[EMGChannelListener .cxx_destruct]', symObjAddr: 0x784, symBinAddr: 0x4784, symSize: 0x28 }
+  - { offsetInCU: 0x27, offset: 0x857D8, size: 0x8, addend: 0x0, symName: '+[EMGPerfAnalysis startRecording:]', symObjAddr: 0x0, symBinAddr: 0x47AC, symSize: 0x50 }
+  - { offsetInCU: 0x41, offset: 0x857F2, size: 0x8, addend: 0x0, symName: _kEMGSpanStarted, symObjAddr: 0x1220, symBinAddr: 0x14160, symSize: 0x0 }
+  - { offsetInCU: 0xB8, offset: 0x85869, size: 0x8, addend: 0x0, symName: _kEMGSpanEnded, symObjAddr: 0x1228, symBinAddr: 0x14168, symSize: 0x0 }
+  - { offsetInCU: 0xCE, offset: 0x8587F, size: 0x8, addend: 0x0, symName: __ZL15fileEventsQueue, symObjAddr: 0x9A18, symBinAddr: 0x1A678, symSize: 0x0 }
+  - { offsetInCU: 0xF8, offset: 0x858A9, size: 0x8, addend: 0x0, symName: __ZL15channelListener, symObjAddr: 0x9A20, symBinAddr: 0x1A680, symSize: 0x0 }
+  - { offsetInCU: 0x127, offset: 0x858D8, size: 0x8, addend: 0x0, symName: __ZL10sSpanTimes, symObjAddr: 0x9A28, symBinAddr: 0x1A688, symSize: 0x0 }
+  - { offsetInCU: 0x308D, offset: 0x8883E, size: 0x8, addend: 0x0, symName: '+[EMGPerfAnalysis startRecording:]', symObjAddr: 0x0, symBinAddr: 0x47AC, symSize: 0x50 }
+  - { offsetInCU: 0x30CC, offset: 0x8887D, size: 0x8, addend: 0x0, symName: '+[EMGPerfAnalysis setupRunAtStartup:]', symObjAddr: 0x50, symBinAddr: 0x47FC, symSize: 0x90 }
+  - { offsetInCU: 0x310B, offset: 0x888BC, size: 0x8, addend: 0x0, symName: '+[EMGPerfAnalysis startObserving]', symObjAddr: 0xE0, symBinAddr: 0x488C, symSize: 0xDC }
+  - { offsetInCU: 0x3206, offset: 0x889B7, size: 0x8, addend: 0x0, symName: '___33+[EMGPerfAnalysis startObserving]_block_invoke', symObjAddr: 0x1BC, symBinAddr: 0x4968, symSize: 0x1AC }
+  - { offsetInCU: 0x3254, offset: 0x88A05, size: 0x8, addend: 0x0, symName: '___33+[EMGPerfAnalysis startObserving]_block_invoke_2', symObjAddr: 0x368, symBinAddr: 0x4B14, symSize: 0x1A8 }
+  - { offsetInCU: 0x32C7, offset: 0x88A78, size: 0x8, addend: 0x0, symName: '___33+[EMGPerfAnalysis startObserving]_block_invoke_3', symObjAddr: 0x510, symBinAddr: 0x4CBC, symSize: 0x1A8 }
+  - { offsetInCU: 0x3323, offset: 0x88AD4, size: 0x8, addend: 0x0, symName: '+[EMGPerfAnalysis stopRecording]', symObjAddr: 0x6B8, symBinAddr: 0x4E64, symSize: 0x14 }
+  - { offsetInCU: 0x3352, offset: 0x88B03, size: 0x8, addend: 0x0, symName: '___32+[EMGPerfAnalysis stopRecording]_block_invoke', symObjAddr: 0x6CC, symBinAddr: 0x4E78, symSize: 0x314 }
+  - { offsetInCU: 0x342C, offset: 0x88BDD, size: 0x8, addend: 0x0, symName: '+[EMGPerfAnalysis load]', symObjAddr: 0x9E0, symBinAddr: 0x518C, symSize: 0x1D0 }
+  - { offsetInCU: 0x34D1, offset: 0x88C82, size: 0x8, addend: 0x0, symName: '+[EMGPerfAnalysis outputPath]', symObjAddr: 0xBB0, symBinAddr: 0x535C, symSize: 0x100 }
+  - { offsetInCU: 0x26, offset: 0x891D3, size: 0x8, addend: 0x0, symName: _FIRCLSWriteThreadStack, symObjAddr: 0x0, symBinAddr: 0x545C, symSize: 0x164 }
+  - { offsetInCU: 0xC2, offset: 0x8926F, size: 0x8, addend: 0x0, symName: _FIRCLSWriteThreadStack, symObjAddr: 0x0, symBinAddr: 0x545C, symSize: 0x164 }
+  - { offsetInCU: 0x26, offset: 0x8957A, size: 0x8, addend: 0x0, symName: _FIRCLSSDKFileLog, symObjAddr: 0x0, symBinAddr: 0x55C0, symSize: 0x4 }
+  - { offsetInCU: 0x7E, offset: 0x895D2, size: 0x8, addend: 0x0, symName: _FIRCLSSDKFileLog, symObjAddr: 0x0, symBinAddr: 0x55C0, symSize: 0x4 }
+  - { offsetInCU: 0x27, offset: 0x89655, size: 0x8, addend: 0x0, symName: _FIRCLSDebugLog, symObjAddr: 0x0, symBinAddr: 0x55C4, symSize: 0x4 }
+  - { offsetInCU: 0x41, offset: 0x8966F, size: 0x8, addend: 0x0, symName: _CrashlyticsMessageCode, symObjAddr: 0x40, symBinAddr: 0x14250, symSize: 0x0 }
+  - { offsetInCU: 0x5C, offset: 0x8968A, size: 0x8, addend: 0x0, symName: _FIRCLSDebugLog, symObjAddr: 0x0, symBinAddr: 0x55C4, symSize: 0x4 }
+  - { offsetInCU: 0x8E, offset: 0x896BC, size: 0x8, addend: 0x0, symName: _FIRCLSInfoLog, symObjAddr: 0x4, symBinAddr: 0x55C8, symSize: 0x4 }
+  - { offsetInCU: 0xC0, offset: 0x896EE, size: 0x8, addend: 0x0, symName: _FIRCLSWarningLog, symObjAddr: 0x8, symBinAddr: 0x55CC, symSize: 0x4 }
+  - { offsetInCU: 0xF2, offset: 0x89720, size: 0x8, addend: 0x0, symName: _FIRCLSErrorLog, symObjAddr: 0xC, symBinAddr: 0x55D0, symSize: 0x4 }
+  - { offsetInCU: 0x26, offset: 0x8977F, size: 0x8, addend: 0x0, symName: _FIRCLSThreadContextGetPC, symObjAddr: 0x0, symBinAddr: 0x55D4, symSize: 0x10 }
+  - { offsetInCU: 0x7A, offset: 0x897D3, size: 0x8, addend: 0x0, symName: _FIRCLSThreadContextGetPC, symObjAddr: 0x0, symBinAddr: 0x55D4, symSize: 0x10 }
+  - { offsetInCU: 0xA5, offset: 0x897FE, size: 0x8, addend: 0x0, symName: _FIRCLSThreadContextGetStackPointer, symObjAddr: 0x10, symBinAddr: 0x55E4, symSize: 0x10 }
+  - { offsetInCU: 0xD0, offset: 0x89829, size: 0x8, addend: 0x0, symName: _FIRCLSThreadContextSetStackPointer, symObjAddr: 0x20, symBinAddr: 0x55F4, symSize: 0x18 }
+  - { offsetInCU: 0x109, offset: 0x89862, size: 0x8, addend: 0x0, symName: _FIRCLSThreadContextGetLinkRegister, symObjAddr: 0x38, symBinAddr: 0x560C, symSize: 0x1C }
+  - { offsetInCU: 0x134, offset: 0x8988D, size: 0x8, addend: 0x0, symName: _FIRCLSThreadContextSetLinkRegister, symObjAddr: 0x54, symBinAddr: 0x5628, symSize: 0x18 }
+  - { offsetInCU: 0x16D, offset: 0x898C6, size: 0x8, addend: 0x0, symName: _FIRCLSThreadContextSetPC, symObjAddr: 0x6C, symBinAddr: 0x5640, symSize: 0x14 }
+  - { offsetInCU: 0x1A6, offset: 0x898FF, size: 0x8, addend: 0x0, symName: _FIRCLSThreadContextGetFramePointer, symObjAddr: 0x80, symBinAddr: 0x5654, symSize: 0x1C }
+  - { offsetInCU: 0x1D1, offset: 0x8992A, size: 0x8, addend: 0x0, symName: _FIRCLSThreadContextSetFramePointer, symObjAddr: 0x9C, symBinAddr: 0x5670, symSize: 0x18 }
+  - { offsetInCU: 0x27, offset: 0x899AB, size: 0x8, addend: 0x0, symName: _FIRCLSLookupFunctionPointer, symObjAddr: 0x0, symBinAddr: 0x5688, symSize: 0x88 }
+  - { offsetInCU: 0x9D, offset: 0x89A21, size: 0x8, addend: 0x0, symName: _FIRCLSLookupFunctionPointer, symObjAddr: 0x0, symBinAddr: 0x5688, symSize: 0x88 }
+  - { offsetInCU: 0x155, offset: 0x89AD9, size: 0x8, addend: 0x0, symName: _FIRCLSNybbleFromChar, symObjAddr: 0x88, symBinAddr: 0x5710, symSize: 0x34 }
+  - { offsetInCU: 0x180, offset: 0x89B04, size: 0x8, addend: 0x0, symName: _FIRCLSReadMemory, symObjAddr: 0xBC, symBinAddr: 0x5744, symSize: 0x50 }
+  - { offsetInCU: 0x24A, offset: 0x89BCE, size: 0x8, addend: 0x0, symName: _FIRCLSReadString, symObjAddr: 0x10C, symBinAddr: 0x5794, symSize: 0xAC }
+  - { offsetInCU: 0x318, offset: 0x89C9C, size: 0x8, addend: 0x0, symName: _FIRCLSDispatchAfter, symObjAddr: 0x1B8, symBinAddr: 0x5840, symSize: 0x70 }
+  - { offsetInCU: 0x430, offset: 0x89DB4, size: 0x8, addend: 0x0, symName: _FIRCLSUnlinkIfExists, symObjAddr: 0x228, symBinAddr: 0x58B0, symSize: 0x34 }
+  - { offsetInCU: 0x48F, offset: 0x89E13, size: 0x8, addend: 0x0, symName: _FIRCLSNormalizeUUID, symObjAddr: 0x25C, symBinAddr: 0x58E4, symSize: 0x54 }
+  - { offsetInCU: 0x4BA, offset: 0x89E3E, size: 0x8, addend: 0x0, symName: _FIRCLSRedactUUID, symObjAddr: 0x2B0, symBinAddr: 0x5938, symSize: 0x84 }
+  - { offsetInCU: 0x525, offset: 0x89EA9, size: 0x8, addend: 0x0, symName: _FIRCLSAddOperationAfter, symObjAddr: 0x334, symBinAddr: 0x59BC, symSize: 0xE4 }
+  - { offsetInCU: 0x5D3, offset: 0x89F57, size: 0x8, addend: 0x0, symName: ___FIRCLSAddOperationAfter_block_invoke, symObjAddr: 0x418, symBinAddr: 0x5AA0, symSize: 0xC }
+  - { offsetInCU: 0x61E, offset: 0x89FA2, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x424, symBinAddr: 0x5AAC, symSize: 0x34 }
+  - { offsetInCU: 0x647, offset: 0x89FCB, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x458, symBinAddr: 0x5AE0, symSize: 0x28 }
+  - { offsetInCU: 0x26, offset: 0x8A123, size: 0x8, addend: 0x0, symName: _FIRCLSUnwindInit, symObjAddr: 0x0, symBinAddr: 0x5B08, symSize: 0x48 }
+  - { offsetInCU: 0x40, offset: 0x8A13D, size: 0x8, addend: 0x0, symName: _FIRCLSUnwindMaxFrames, symObjAddr: 0x3E8, symBinAddr: 0xE70C, symSize: 0x0 }
+  - { offsetInCU: 0x62, offset: 0x8A15F, size: 0x8, addend: 0x0, symName: _FIRCLSUnwindInfiniteRecursionCountThreshold, symObjAddr: 0x3EC, symBinAddr: 0xE710, symSize: 0x0 }
+  - { offsetInCU: 0xED, offset: 0x8A1EA, size: 0x8, addend: 0x0, symName: _FIRCLSUnwindInit, symObjAddr: 0x0, symBinAddr: 0x5B08, symSize: 0x48 }
+  - { offsetInCU: 0x1F7, offset: 0x8A2F4, size: 0x8, addend: 0x0, symName: _FIRCLSUnwindNextFrame, symObjAddr: 0x48, symBinAddr: 0x5B50, symSize: 0x244 }
+  - { offsetInCU: 0x3C2, offset: 0x8A4BF, size: 0x8, addend: 0x0, symName: _FIRCLSUnwindContextHasValidPCAndSP, symObjAddr: 0x28C, symBinAddr: 0x5D94, symSize: 0x48 }
+  - { offsetInCU: 0x4EA, offset: 0x8A5E7, size: 0x8, addend: 0x0, symName: _FIRCLSUnwindGetPC, symObjAddr: 0x2D4, symBinAddr: 0x5DDC, symSize: 0x14 }
+  - { offsetInCU: 0x517, offset: 0x8A614, size: 0x8, addend: 0x0, symName: _FIRCLSUnwindGetStackPointer, symObjAddr: 0x2E8, symBinAddr: 0x5DF0, symSize: 0x14 }
+  - { offsetInCU: 0x544, offset: 0x8A641, size: 0x8, addend: 0x0, symName: _FIRCLSUnwindGetFrameRepeatCount, symObjAddr: 0x2FC, symBinAddr: 0x5E04, symSize: 0x18 }
+  - { offsetInCU: 0x56F, offset: 0x8A66C, size: 0x8, addend: 0x0, symName: _FIRCLSUnwindIsAddressExecutable, symObjAddr: 0x314, symBinAddr: 0x5E1C, symSize: 0x8 }
+  - { offsetInCU: 0x59C, offset: 0x8A699, size: 0x8, addend: 0x0, symName: _FIRCLSUnwindFirstExecutableAddress, symObjAddr: 0x31C, symBinAddr: 0x5E24, symSize: 0xCC }
+  - { offsetInCU: 0x26, offset: 0x8A7A3, size: 0x8, addend: 0x0, symName: _FIRCLSUnwindWithFramePointer, symObjAddr: 0x0, symBinAddr: 0x5EF0, symSize: 0x138 }
+  - { offsetInCU: 0x105, offset: 0x8A882, size: 0x8, addend: 0x0, symName: _FIRCLSUnwindWithFramePointer, symObjAddr: 0x0, symBinAddr: 0x5EF0, symSize: 0x138 }
+  - { offsetInCU: 0x338, offset: 0x8AAB5, size: 0x8, addend: 0x0, symName: _FIRCLSUnwindStackPointerFromFramePointer, symObjAddr: 0x138, symBinAddr: 0x6028, symSize: 0x8 }
+  - { offsetInCU: 0x26, offset: 0x8AB0B, size: 0x8, addend: 0x0, symName: _fircls_strip_this_unwind_x86, symObjAddr: 0x0, symBinAddr: 0x6030, symSize: 0x4 }
+  - { offsetInCU: 0x65, offset: 0x8AB4A, size: 0x8, addend: 0x0, symName: _fircls_strip_this_unwind_x86, symObjAddr: 0x0, symBinAddr: 0x6030, symSize: 0x4 }
+  - { offsetInCU: 0x41, offset: 0x8ABA2, size: 0x8, addend: 0x0, symName: __ZL21sStackRecordingThread, symObjAddr: 0x44D00, symBinAddr: 0x1A690, symSize: 0x0 }
+  - { offsetInCU: 0x1DA, offset: 0x8AD3B, size: 0x8, addend: 0x0, symName: __ZL12sThreadsLock, symObjAddr: 0x1B88, symBinAddr: 0x1A638, symSize: 0x0 }
+  - { offsetInCU: 0xB68A, offset: 0x961EB, size: 0x8, addend: 0x0, symName: __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI5StackEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m, symObjAddr: 0x1404, symBinAddr: 0x7438, symSize: 0x44 }
+  - { offsetInCU: 0xB732, offset: 0x96293, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_length_errorB7v160006EPKc, symObjAddr: 0x1448, symBinAddr: 0x747C, symSize: 0x50 }
+  - { offsetInCU: 0xB91D, offset: 0x9647E, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_out_of_rangeB7v160006EPKc, symObjAddr: 0x17D0, symBinAddr: 0x7804, symSize: 0x50 }
+  - { offsetInCU: 0xB9E9, offset: 0x9654A, size: 0x8, addend: 0x0, symName: __ZNSt3__120__throw_length_errorB7v160006EPKc, symObjAddr: 0x1448, symBinAddr: 0x747C, symSize: 0x50 }
+  - { offsetInCU: 0xBA94, offset: 0x965F5, size: 0x8, addend: 0x0, symName: __ZNSt3__127__tree_balance_after_insertB7v160006IPNS_16__tree_node_baseIPvEEEEvT_S5_, symObjAddr: 0x1638, symBinAddr: 0x766C, symSize: 0x198 }
+  - { offsetInCU: 0xC29B, offset: 0x96DFC, size: 0x8, addend: 0x0, symName: __ZSt28__throw_bad_array_new_lengthB7v160006v, symObjAddr: 0x14BC, symBinAddr: 0x74F0, symSize: 0x28 }
+  - { offsetInCU: 0xC348, offset: 0x96EA9, size: 0x8, addend: 0x0, symName: __ZL11sThreadsMap, symObjAddr: 0x44D08, symBinAddr: 0x1A698, symSize: 0x0 }
+  - { offsetInCU: 0xCAD7, offset: 0x97638, size: 0x8, addend: 0x0, symName: __ZL15sMainMachThread, symObjAddr: 0x44D10, symBinAddr: 0x1A6A0, symSize: 0x0 }
+  - { offsetInCU: 0xCB28, offset: 0x97689, size: 0x8, addend: 0x0, symName: __ZL17sRecordAllThreads, symObjAddr: 0x44D14, symBinAddr: 0x1A6A4, symSize: 0x0 }
+  - { offsetInCU: 0xCB42, offset: 0x976A3, size: 0x8, addend: 0x0, symName: __ZL14sETTraceThread, symObjAddr: 0x44D18, symBinAddr: 0x1A6A8, symSize: 0x0 }
+  - { offsetInCU: 0xEF46, offset: 0x99AA7, size: 0x8, addend: 0x0, symName: '+[EMGTracer isRecording]', symObjAddr: 0x0, symBinAddr: 0x6034, symSize: 0x14 }
+  - { offsetInCU: 0xEF79, offset: 0x99ADA, size: 0x8, addend: 0x0, symName: '+[EMGTracer stopRecording:]', symObjAddr: 0x14, symBinAddr: 0x6048, symSize: 0xD0 }
+  - { offsetInCU: 0xF01B, offset: 0x99B7C, size: 0x8, addend: 0x0, symName: '___27+[EMGTracer stopRecording:]_block_invoke', symObjAddr: 0xE4, symBinAddr: 0x6118, symSize: 0x5C }
+  - { offsetInCU: 0xF071, offset: 0x99BD2, size: 0x8, addend: 0x0, symName: ___copy_helper_block_ea8_32b, symObjAddr: 0x140, symBinAddr: 0x6174, symSize: 0x10 }
+  - { offsetInCU: 0xF09A, offset: 0x99BFB, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_ea8_32s, symObjAddr: 0x150, symBinAddr: 0x6184, symSize: 0x8 }
+  - { offsetInCU: 0xF2B3, offset: 0x99E14, size: 0x8, addend: 0x0, symName: '+[EMGTracer getResults]', symObjAddr: 0x158, symBinAddr: 0x618C, symSize: 0x4A8 }
+  - { offsetInCU: 0xF7FC, offset: 0x9A35D, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorI5StackNS_9allocatorIS1_EEEC2ERKS4_, symObjAddr: 0x12EC, symBinAddr: 0x7320, symSize: 0xB4 }
+  - { offsetInCU: 0xFC10, offset: 0x9A771, size: 0x8, addend: 0x0, symName: '+[EMGTracer arrayFromStacks:]', symObjAddr: 0x600, symBinAddr: 0x6634, symSize: 0x204 }
+  - { offsetInCU: 0xFD24, offset: 0x9A885, size: 0x8, addend: 0x0, symName: '+[EMGTracer isRunningOnSimulator]', symObjAddr: 0x804, symBinAddr: 0x6838, symSize: 0x8 }
+  - { offsetInCU: 0xFD57, offset: 0x9A8B8, size: 0x8, addend: 0x0, symName: '+[EMGTracer osBuild]', symObjAddr: 0x80C, symBinAddr: 0x6840, symSize: 0x174 }
+  - { offsetInCU: 0xFEAA, offset: 0x9AA0B, size: 0x8, addend: 0x0, symName: '+[EMGTracer deviceName]', symObjAddr: 0x980, symBinAddr: 0x69B4, symSize: 0x74 }
+  - { offsetInCU: 0xFF98, offset: 0x9AAF9, size: 0x8, addend: 0x0, symName: __Z12createThreadj, symObjAddr: 0x9F4, symBinAddr: 0x6A28, symSize: 0xDC }
+  - { offsetInCU: 0x10173, offset: 0x9ACD4, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorI5StackNS_9allocatorIS1_EEE7reserveEm, symObjAddr: 0xAD0, symBinAddr: 0x6B04, symSize: 0x120 }
+  - { offsetInCU: 0x104CF, offset: 0x9B030, size: 0x8, addend: 0x0, symName: '+[EMGTracer recordStackForAllThreads]', symObjAddr: 0xBF0, symBinAddr: 0x6C24, symSize: 0x4EC }
+  - { offsetInCU: 0x106B6, offset: 0x9B217, size: 0x8, addend: 0x0, symName: __ZNKSt3__16vectorI5StackNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev, symObjAddr: 0x13F0, symBinAddr: 0x7424, symSize: 0x14 }
+  - { offsetInCU: 0x106DF, offset: 0x9B240, size: 0x8, addend: 0x0, symName: __ZNSt3__119__allocate_at_leastB7v160006INS_9allocatorI5StackEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS6_m, symObjAddr: 0x1404, symBinAddr: 0x7438, symSize: 0x44 }
+  - { offsetInCU: 0x10FDE, offset: 0x9BB3F, size: 0x8, addend: 0x0, symName: '+[EMGTracer recordStackForAllThreads]', symObjAddr: 0xBF0, symBinAddr: 0x6C24, symSize: 0x4EC }
+  - { offsetInCU: 0x11E2F, offset: 0x9C990, size: 0x8, addend: 0x0, symName: __ZNSt3__16__treeINS_12__value_typeIjP5StackEENS_19__map_value_compareIjS4_NS_4lessIjEELb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsIjJNS_4pairIjS3_EEEEENSD_INS_15__tree_iteratorIS4_PNS_11__tree_nodeIS4_PvEElEEbEERKT_DpOT0_, symObjAddr: 0x1524, symBinAddr: 0x7558, symSize: 0xC0 }
+  - { offsetInCU: 0x1216F, offset: 0x9CCD0, size: 0x8, addend: 0x0, symName: __ZNSt3__13mapIjP5StackNS_4lessIjEENS_9allocatorINS_4pairIKjS2_EEEEE2atERS7_, symObjAddr: 0x10DC, symBinAddr: 0x7110, symSize: 0x54 }
+  - { offsetInCU: 0x1229A, offset: 0x9CDFB, size: 0x8, addend: 0x0, symName: __ZNSt3__16__treeINS_12__value_typeIjP6ThreadEENS_19__map_value_compareIjS4_NS_4lessIjEELb1EEENS_9allocatorIS4_EEE25__emplace_unique_key_argsIjJNS_4pairIjS3_EEEEENSD_INS_15__tree_iteratorIS4_PNS_11__tree_nodeIS4_PvEElEEbEERKT_DpOT0_, symObjAddr: 0x1844, symBinAddr: 0x7878, symSize: 0xC0 }
+  - { offsetInCU: 0x125B1, offset: 0x9D112, size: 0x8, addend: 0x0, symName: __ZNSt3__13mapIjP6ThreadNS_4lessIjEENS_9allocatorINS_4pairIKjS2_EEEEE2atERS7_, symObjAddr: 0x1130, symBinAddr: 0x7164, symSize: 0x54 }
+  - { offsetInCU: 0x126A3, offset: 0x9D204, size: 0x8, addend: 0x0, symName: __ZNSt3__16__treeINS_12__value_typeIjP5StackEENS_19__map_value_compareIjS4_NS_4lessIjEELb1EEENS_9allocatorIS4_EEE7destroyEPNS_11__tree_nodeIS4_PvEE, symObjAddr: 0x14E4, symBinAddr: 0x7518, symSize: 0x40 }
+  - { offsetInCU: 0x128E1, offset: 0x9D442, size: 0x8, addend: 0x0, symName: '+[EMGTracer setup]', symObjAddr: 0x1190, symBinAddr: 0x71C4, symSize: 0x1C }
+  - { offsetInCU: 0x12A52, offset: 0x9D5B3, size: 0x8, addend: 0x0, symName: '+[EMGTracer setupStackRecording:]', symObjAddr: 0x11AC, symBinAddr: 0x71E0, symSize: 0xC0 }
+  - { offsetInCU: 0x12B72, offset: 0x9D6D3, size: 0x8, addend: 0x0, symName: '___33+[EMGTracer setupStackRecording:]_block_invoke', symObjAddr: 0x126C, symBinAddr: 0x72A0, symSize: 0x80 }
+  - { offsetInCU: 0x12D24, offset: 0x9D885, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorI5StackNS_9allocatorIS1_EEE11__vallocateB7v160006Em, symObjAddr: 0x13A0, symBinAddr: 0x73D4, symSize: 0x50 }
+  - { offsetInCU: 0x12DA4, offset: 0x9D905, size: 0x8, addend: 0x0, symName: __ZNKSt3__16vectorI5StackNS_9allocatorIS1_EEE20__throw_length_errorB7v160006Ev, symObjAddr: 0x13F0, symBinAddr: 0x7424, symSize: 0x14 }
+  - { offsetInCU: 0x12DF0, offset: 0x9D951, size: 0x8, addend: 0x0, symName: __ZNSt12length_errorC1B7v160006EPKc, symObjAddr: 0x1498, symBinAddr: 0x74CC, symSize: 0x24 }
+  - { offsetInCU: 0x1307A, offset: 0x9DBDB, size: 0x8, addend: 0x0, symName: __ZNSt3__16__treeINS_12__value_typeIjP5StackEENS_19__map_value_compareIjS4_NS_4lessIjEELb1EEENS_9allocatorIS4_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSG_SG_, symObjAddr: 0x15E4, symBinAddr: 0x7618, symSize: 0x54 }
+  - { offsetInCU: 0x13122, offset: 0x9DC83, size: 0x8, addend: 0x0, symName: __ZNSt12out_of_rangeC1B7v160006EPKc, symObjAddr: 0x1820, symBinAddr: 0x7854, symSize: 0x24 }
+  - { offsetInCU: 0x13354, offset: 0x9DEB5, size: 0x8, addend: 0x0, symName: __ZNSt3__16__treeINS_12__value_typeIjP6ThreadEENS_19__map_value_compareIjS4_NS_4lessIjEELb1EEENS_9allocatorIS4_EEE16__insert_node_atEPNS_15__tree_end_nodeIPNS_16__tree_node_baseIPvEEEERSG_SG_, symObjAddr: 0x1904, symBinAddr: 0x7938, symSize: 0x54 }
+  - { offsetInCU: 0x27, offset: 0x9E28B, size: 0x8, addend: 0x0, symName: _EMGBeginCollectingLibraries, symObjAddr: 0x0, symBinAddr: 0x798C, symSize: 0xE0 }
+  - { offsetInCU: 0x4F, offset: 0x9E2B3, size: 0x8, addend: 0x0, symName: _sLock, symObjAddr: 0x3A38, symBinAddr: 0x1A6B8, symSize: 0x0 }
+  - { offsetInCU: 0x6A, offset: 0x9E2CE, size: 0x8, addend: 0x0, symName: _sLoadedLibraries, symObjAddr: 0x3A30, symBinAddr: 0x1A6B0, symSize: 0x0 }
+  - { offsetInCU: 0x85, offset: 0x9E2E9, size: 0x8, addend: 0x0, symName: _sMainThreadID, symObjAddr: 0x3A40, symBinAddr: 0x1A6C0, symSize: 0x0 }
+  - { offsetInCU: 0x42A, offset: 0x9E68E, size: 0x8, addend: 0x0, symName: _EMGBeginCollectingLibraries, symObjAddr: 0x0, symBinAddr: 0x798C, symSize: 0xE0 }
+  - { offsetInCU: 0x511, offset: 0x9E775, size: 0x8, addend: 0x0, symName: _uuid, symObjAddr: 0x230, symBinAddr: 0x7BBC, symSize: 0x84 }
+  - { offsetInCU: 0x59C, offset: 0x9E800, size: 0x8, addend: 0x0, symName: _addLibrary, symObjAddr: 0xE0, symBinAddr: 0x7A6C, symSize: 0x150 }
+  - { offsetInCU: 0x600, offset: 0x9E864, size: 0x8, addend: 0x0, symName: _printLibrary, symObjAddr: 0x2B4, symBinAddr: 0x7C40, symSize: 0x84 }
+  - { offsetInCU: 0x6BB, offset: 0x9E91F, size: 0x8, addend: 0x0, symName: _EMGLibrariesData, symObjAddr: 0x338, symBinAddr: 0x7CC4, symSize: 0x1C8 }
+  - { offsetInCU: 0x27, offset: 0x9E9C2, size: 0x8, addend: 0x0, symName: '+[PTChannel channelWithDelegate:]', symObjAddr: 0x0, symBinAddr: 0x7ECC, symSize: 0x50 }
+  - { offsetInCU: 0x6D, offset: 0x9EA08, size: 0x8, addend: 0x0, symName: _kUserInfoKey, symObjAddr: 0x21F8, symBinAddr: 0xE720, symSize: 0x0 }
+  - { offsetInCU: 0x241, offset: 0x9EBDC, size: 0x8, addend: 0x0, symName: '+[PTChannel channelWithDelegate:]', symObjAddr: 0x0, symBinAddr: 0x7ECC, symSize: 0x50 }
+  - { offsetInCU: 0x284, offset: 0x9EC1F, size: 0x8, addend: 0x0, symName: '-[PTChannel initWithProtocol:delegate:]', symObjAddr: 0x50, symBinAddr: 0x7F1C, symSize: 0xD8 }
+  - { offsetInCU: 0x2DB, offset: 0x9EC76, size: 0x8, addend: 0x0, symName: '-[PTChannel initWithProtocol:]', symObjAddr: 0x128, symBinAddr: 0x7FF4, symSize: 0x8 }
+  - { offsetInCU: 0x31E, offset: 0x9ECB9, size: 0x8, addend: 0x0, symName: '-[PTChannel init]', symObjAddr: 0x130, symBinAddr: 0x7FFC, symSize: 0x5C }
+  - { offsetInCU: 0x355, offset: 0x9ECF0, size: 0x8, addend: 0x0, symName: '-[PTChannel isConnected]', symObjAddr: 0x18C, symBinAddr: 0x8058, symSize: 0x14 }
+  - { offsetInCU: 0x38C, offset: 0x9ED27, size: 0x8, addend: 0x0, symName: '-[PTChannel isListening]', symObjAddr: 0x1A0, symBinAddr: 0x806C, symSize: 0x10 }
+  - { offsetInCU: 0x3C3, offset: 0x9ED5E, size: 0x8, addend: 0x0, symName: '-[PTChannel userInfo]', symObjAddr: 0x1B0, symBinAddr: 0x807C, symSize: 0xC }
+  - { offsetInCU: 0x427, offset: 0x9EDC2, size: 0x8, addend: 0x0, symName: '-[PTChannel setUserInfo:]', symObjAddr: 0x1BC, symBinAddr: 0x8088, symSize: 0x10 }
+  - { offsetInCU: 0x4AB, offset: 0x9EE46, size: 0x8, addend: 0x0, symName: '-[PTChannel setConnState:]', symObjAddr: 0x1CC, symBinAddr: 0x8098, symSize: 0x8 }
+  - { offsetInCU: 0x4EA, offset: 0x9EE85, size: 0x8, addend: 0x0, symName: '-[PTChannel setDispatchChannel:]', symObjAddr: 0x1D4, symBinAddr: 0x80A0, symSize: 0x90 }
+  - { offsetInCU: 0x53C, offset: 0x9EED7, size: 0x8, addend: 0x0, symName: '-[PTChannel setDispatchSource:]', symObjAddr: 0x264, symBinAddr: 0x8130, symSize: 0x94 }
+  - { offsetInCU: 0x547, offset: 0x9EEE2, size: 0x8, addend: 0x0, symName: '-[PTChannel setDispatchChannel:].cold.1', symObjAddr: 0x1B74, symBinAddr: 0xC7CC, symSize: 0x28 }
+  - { offsetInCU: 0x55F, offset: 0x9EEFA, size: 0x8, addend: 0x0, symName: '-[PTChannel setDispatchSource:]', symObjAddr: 0x264, symBinAddr: 0x8130, symSize: 0x94 }
+  - { offsetInCU: 0x5B1, offset: 0x9EF4C, size: 0x8, addend: 0x0, symName: '-[PTChannel delegate]', symObjAddr: 0x2F8, symBinAddr: 0x81C4, symSize: 0x8 }
+  - { offsetInCU: 0x5BC, offset: 0x9EF57, size: 0x8, addend: 0x0, symName: '-[PTChannel setDispatchSource:].cold.1', symObjAddr: 0x1B9C, symBinAddr: 0xC7F4, symSize: 0x28 }
+  - { offsetInCU: 0x5D4, offset: 0x9EF6F, size: 0x8, addend: 0x0, symName: '-[PTChannel delegate]', symObjAddr: 0x2F8, symBinAddr: 0x81C4, symSize: 0x8 }
+  - { offsetInCU: 0x60B, offset: 0x9EFA6, size: 0x8, addend: 0x0, symName: '-[PTChannel setDelegate:]', symObjAddr: 0x300, symBinAddr: 0x81CC, symSize: 0xC4 }
+  - { offsetInCU: 0x64E, offset: 0x9EFE9, size: 0x8, addend: 0x0, symName: '-[PTChannel connectToPort:overUSBHub:deviceID:callback:]', symObjAddr: 0x3C4, symBinAddr: 0x8290, symSize: 0x164 }
+  - { offsetInCU: 0x6DF, offset: 0x9F07A, size: 0x8, addend: 0x0, symName: '___56-[PTChannel connectToPort:overUSBHub:deviceID:callback:]_block_invoke', symObjAddr: 0x528, symBinAddr: 0x83F4, symSize: 0xB0 }
+  - { offsetInCU: 0x6EA, offset: 0x9F085, size: 0x8, addend: 0x0, symName: '-[PTChannel connectToPort:overUSBHub:deviceID:callback:].cold.1', symObjAddr: 0x1BC4, symBinAddr: 0xC81C, symSize: 0x28 }
+  - { offsetInCU: 0x702, offset: 0x9F09D, size: 0x8, addend: 0x0, symName: '___56-[PTChannel connectToPort:overUSBHub:deviceID:callback:]_block_invoke', symObjAddr: 0x528, symBinAddr: 0x83F4, symSize: 0xB0 }
+  - { offsetInCU: 0x7A4, offset: 0x9F13F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x5D8, symBinAddr: 0x84A4, symSize: 0x34 }
+  - { offsetInCU: 0x7CD, offset: 0x9F168, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x60C, symBinAddr: 0x84D8, symSize: 0x28 }
+  - { offsetInCU: 0x7EC, offset: 0x9F187, size: 0x8, addend: 0x0, symName: '___56-[PTChannel connectToPort:overUSBHub:deviceID:callback:]_block_invoke.13', symObjAddr: 0x634, symBinAddr: 0x8500, symSize: 0x40 }
+  - { offsetInCU: 0x83B, offset: 0x9F1D6, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x674, symBinAddr: 0x8540, symSize: 0x8 }
+  - { offsetInCU: 0x862, offset: 0x9F1FD, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x67C, symBinAddr: 0x8548, symSize: 0x8 }
+  - { offsetInCU: 0x881, offset: 0x9F21C, size: 0x8, addend: 0x0, symName: '-[PTChannel connectToPort:IPv4Address:callback:]', symObjAddr: 0x684, symBinAddr: 0x8550, symSize: 0x2B0 }
+  - { offsetInCU: 0xBB4, offset: 0x9F54F, size: 0x8, addend: 0x0, symName: '-[PTChannel connectToPort:IPv4Address:callback:].cold.2', symObjAddr: 0x1C14, symBinAddr: 0xC86C, symSize: 0x98 }
+  - { offsetInCU: 0xBCC, offset: 0x9F567, size: 0x8, addend: 0x0, symName: '-[PTChannel connectToPort:IPv4Address:callback:].cold.1', symObjAddr: 0x1BEC, symBinAddr: 0xC844, symSize: 0x28 }
+  - { offsetInCU: 0xBE4, offset: 0x9F57F, size: 0x8, addend: 0x0, symName: '___48-[PTChannel connectToPort:IPv4Address:callback:]_block_invoke', symObjAddr: 0x934, symBinAddr: 0x8800, symSize: 0x9C }
+  - { offsetInCU: 0xC70, offset: 0x9F60B, size: 0x8, addend: 0x0, symName: '-[PTChannel listenOnPort:IPv4Address:callback:]', symObjAddr: 0x9D0, symBinAddr: 0x889C, symSize: 0x270 }
+  - { offsetInCU: 0xF31, offset: 0x9F8CC, size: 0x8, addend: 0x0, symName: '-[PTChannel listenOnPort:IPv4Address:callback:].cold.1', symObjAddr: 0x1CAC, symBinAddr: 0xC904, symSize: 0x28 }
+  - { offsetInCU: 0xF49, offset: 0x9F8E4, size: 0x8, addend: 0x0, symName: '___47-[PTChannel listenOnPort:IPv4Address:callback:]_block_invoke', symObjAddr: 0xC40, symBinAddr: 0x8B0C, symSize: 0x48 }
+  - { offsetInCU: 0xFDD, offset: 0x9F978, size: 0x8, addend: 0x0, symName: '___47-[PTChannel listenOnPort:IPv4Address:callback:]_block_invoke.21', symObjAddr: 0xC88, symBinAddr: 0x8B54, symSize: 0x60 }
+  - { offsetInCU: 0x103E, offset: 0x9F9D9, size: 0x8, addend: 0x0, symName: '-[PTChannel acceptIncomingConnection:]', symObjAddr: 0xCE8, symBinAddr: 0x8BB4, symSize: 0x2E4 }
+  - { offsetInCU: 0x123E, offset: 0x9FBD9, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0xFCC, symBinAddr: 0x8E98, symSize: 0x10 }
+  - { offsetInCU: 0x1263, offset: 0x9FBFE, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0xFDC, symBinAddr: 0x8EA8, symSize: 0x8 }
+  - { offsetInCU: 0x1282, offset: 0x9FC1D, size: 0x8, addend: 0x0, symName: '___38-[PTChannel acceptIncomingConnection:]_block_invoke', symObjAddr: 0xFE4, symBinAddr: 0x8EB0, symSize: 0xB0 }
+  - { offsetInCU: 0x1321, offset: 0x9FCBC, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0x1094, symBinAddr: 0x8F60, symSize: 0x34 }
+  - { offsetInCU: 0x134A, offset: 0x9FCE5, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0x10C8, symBinAddr: 0x8F94, symSize: 0x2C }
+  - { offsetInCU: 0x1369, offset: 0x9FD04, size: 0x8, addend: 0x0, symName: '-[PTChannel close]', symObjAddr: 0x10F4, symBinAddr: 0x8FC0, symSize: 0x6C }
+  - { offsetInCU: 0x13E3, offset: 0x9FD7E, size: 0x8, addend: 0x0, symName: '-[PTChannel cancel]', symObjAddr: 0x1160, symBinAddr: 0x902C, symSize: 0x6C }
+  - { offsetInCU: 0x143A, offset: 0x9FDD5, size: 0x8, addend: 0x0, symName: '-[PTChannel startReadingFromConnectedChannel:error:]', symObjAddr: 0x11CC, symBinAddr: 0x9098, symSize: 0x170 }
+  - { offsetInCU: 0x14A5, offset: 0x9FE40, size: 0x8, addend: 0x0, symName: '___52-[PTChannel startReadingFromConnectedChannel:error:]_block_invoke', symObjAddr: 0x133C, symBinAddr: 0x9208, symSize: 0x7C }
+  - { offsetInCU: 0x150D, offset: 0x9FEA8, size: 0x8, addend: 0x0, symName: '___52-[PTChannel startReadingFromConnectedChannel:error:]_block_invoke.28', symObjAddr: 0x13B8, symBinAddr: 0x9284, symSize: 0x1DC }
+  - { offsetInCU: 0x160E, offset: 0x9FFA9, size: 0x8, addend: 0x0, symName: '___52-[PTChannel startReadingFromConnectedChannel:error:]_block_invoke_2', symObjAddr: 0x1594, symBinAddr: 0x9460, symSize: 0x40 }
+  - { offsetInCU: 0x16A8, offset: 0xA0043, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40b, symObjAddr: 0x15D4, symBinAddr: 0x94A0, symSize: 0x3C }
+  - { offsetInCU: 0x16D1, offset: 0xA006C, size: 0x8, addend: 0x0, symName: '___52-[PTChannel startReadingFromConnectedChannel:error:]_block_invoke.30', symObjAddr: 0x1610, symBinAddr: 0x94DC, symSize: 0x7C }
+  - { offsetInCU: 0x17B7, offset: 0xA0152, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48b, symObjAddr: 0x168C, symBinAddr: 0x9558, symSize: 0x44 }
+  - { offsetInCU: 0x17E0, offset: 0xA017B, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x16D0, symBinAddr: 0x959C, symSize: 0x30 }
+  - { offsetInCU: 0x17FF, offset: 0xA019A, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0x1700, symBinAddr: 0x95CC, symSize: 0x3C }
+  - { offsetInCU: 0x1828, offset: 0xA01C3, size: 0x8, addend: 0x0, symName: '-[PTChannel sendFrameOfType:tag:withPayload:callback:]', symObjAddr: 0x173C, symBinAddr: 0x9608, symSize: 0x110 }
+  - { offsetInCU: 0x191E, offset: 0xA02B9, size: 0x8, addend: 0x0, symName: '-[PTChannel description]', symObjAddr: 0x184C, symBinAddr: 0x9718, symSize: 0xD0 }
+  - { offsetInCU: 0x197E, offset: 0xA0319, size: 0x8, addend: 0x0, symName: '-[PTChannel protocol]', symObjAddr: 0x191C, symBinAddr: 0x97E8, symSize: 0xC }
+  - { offsetInCU: 0x19B5, offset: 0xA0350, size: 0x8, addend: 0x0, symName: '-[PTChannel setProtocol:]', symObjAddr: 0x1928, symBinAddr: 0x97F4, symSize: 0x8 }
+  - { offsetInCU: 0x19F4, offset: 0xA038F, size: 0x8, addend: 0x0, symName: '-[PTChannel .cxx_destruct]', symObjAddr: 0x1930, symBinAddr: 0x97FC, symSize: 0x54 }
+  - { offsetInCU: 0x1A27, offset: 0xA03C2, size: 0x8, addend: 0x0, symName: '-[PTAddress initWithSockaddr:]', symObjAddr: 0x1984, symBinAddr: 0x9850, symSize: 0x74 }
+  - { offsetInCU: 0x1A73, offset: 0xA040E, size: 0x8, addend: 0x0, symName: '-[PTAddress name]', symObjAddr: 0x19F8, symBinAddr: 0x98C4, symSize: 0xD0 }
+  - { offsetInCU: 0x1A7E, offset: 0xA0419, size: 0x8, addend: 0x0, symName: '-[PTAddress initWithSockaddr:].cold.1', symObjAddr: 0x1CD4, symBinAddr: 0xC92C, symSize: 0x28 }
+  - { offsetInCU: 0x1A96, offset: 0xA0431, size: 0x8, addend: 0x0, symName: '-[PTAddress name]', symObjAddr: 0x19F8, symBinAddr: 0x98C4, symSize: 0xD0 }
+  - { offsetInCU: 0x1BBF, offset: 0xA055A, size: 0x8, addend: 0x0, symName: '-[PTAddress port]', symObjAddr: 0x1AC8, symBinAddr: 0x9994, symSize: 0x20 }
+  - { offsetInCU: 0x1BF7, offset: 0xA0592, size: 0x8, addend: 0x0, symName: '-[PTAddress description]', symObjAddr: 0x1AE8, symBinAddr: 0x99B4, symSize: 0x8C }
+  - { offsetInCU: 0x27, offset: 0xA0CFB, size: 0x8, addend: 0x0, symName: '-[RQueueLocalIOFrameProtocol setQueue:]', symObjAddr: 0x0, symBinAddr: 0x9A40, symSize: 0x4 }
+  - { offsetInCU: 0x41, offset: 0xA0D15, size: 0x8, addend: 0x0, symName: _PTProtocolErrorDomain, symObjAddr: 0x1290, symBinAddr: 0x14488, symSize: 0x0 }
+  - { offsetInCU: 0x55, offset: 0xA0D29, size: 0x8, addend: 0x0, symName: '+[PTProtocol sharedProtocolForQueue:]', symObjAddr: 0x4, symBinAddr: 0x9A44, symSize: 0xD4 }
+  - { offsetInCU: 0x7F, offset: 0xA0D53, size: 0x8, addend: 0x0, symName: '_sharedProtocolForQueue:.currentQueueFrameProtocolKey', symObjAddr: 0x1C74, symBinAddr: 0xE721, symSize: 0x0 }
+  - { offsetInCU: 0x146, offset: 0xA0E1A, size: 0x8, addend: 0x0, symName: '+[NSData(PTProtocol) dataWithContentsOfDispatchData:]', symObjAddr: 0xF6C, symBinAddr: 0xA904, symSize: 0xB4 }
+  - { offsetInCU: 0x2F2, offset: 0xA0FC6, size: 0x8, addend: 0x0, symName: '-[RQueueLocalIOFrameProtocol setQueue:]', symObjAddr: 0x0, symBinAddr: 0x9A40, symSize: 0x4 }
+  - { offsetInCU: 0x363, offset: 0xA1037, size: 0x8, addend: 0x0, symName: __release_queue_local_protocol, symObjAddr: 0xD8, symBinAddr: 0x9B18, symSize: 0x34 }
+  - { offsetInCU: 0x3A7, offset: 0xA107B, size: 0x8, addend: 0x0, symName: '-[PTProtocol initWithDispatchQueue:]', symObjAddr: 0x10C, symBinAddr: 0x9B4C, symSize: 0x88 }
+  - { offsetInCU: 0x3EE, offset: 0xA10C2, size: 0x8, addend: 0x0, symName: '-[PTProtocol init]', symObjAddr: 0x194, symBinAddr: 0x9BD4, symSize: 0xC }
+  - { offsetInCU: 0x425, offset: 0xA10F9, size: 0x8, addend: 0x0, symName: '-[PTProtocol queue]', symObjAddr: 0x1A0, symBinAddr: 0x9BE0, symSize: 0x8 }
+  - { offsetInCU: 0x45C, offset: 0xA1130, size: 0x8, addend: 0x0, symName: '-[PTProtocol setQueue:]', symObjAddr: 0x1A8, symBinAddr: 0x9BE8, symSize: 0xC }
+  - { offsetInCU: 0x49F, offset: 0xA1173, size: 0x8, addend: 0x0, symName: '-[PTProtocol newTag]', symObjAddr: 0x1B4, symBinAddr: 0x9BF4, symSize: 0x14 }
+  - { offsetInCU: 0x4D6, offset: 0xA11AA, size: 0x8, addend: 0x0, symName: '-[PTProtocol createDispatchDataWithFrameOfType:frameTag:payload:]', symObjAddr: 0x1C8, symBinAddr: 0x9C08, symSize: 0x11C }
+  - { offsetInCU: 0x607, offset: 0xA12DB, size: 0x8, addend: 0x0, symName: '___65-[PTProtocol createDispatchDataWithFrameOfType:frameTag:payload:]_block_invoke', symObjAddr: 0x2E4, symBinAddr: 0x9D24, symSize: 0x18 }
+  - { offsetInCU: 0x694, offset: 0xA1368, size: 0x8, addend: 0x0, symName: '-[PTProtocol createDispatchDataWithFrameOfType:frameTag:payload:].cold.1', symObjAddr: 0x10E8, symBinAddr: 0xC954, symSize: 0x28 }
+  - { offsetInCU: 0x6AC, offset: 0xA1380, size: 0x8, addend: 0x0, symName: '___65-[PTProtocol createDispatchDataWithFrameOfType:frameTag:payload:]_block_invoke', symObjAddr: 0x2E4, symBinAddr: 0x9D24, symSize: 0x18 }
+  - { offsetInCU: 0x709, offset: 0xA13DD, size: 0x8, addend: 0x0, symName: '-[PTProtocol sendFrameOfType:tag:withPayload:overChannel:callback:]', symObjAddr: 0x2FC, symBinAddr: 0x9D3C, symSize: 0xF4 }
+  - { offsetInCU: 0x80D, offset: 0xA14E1, size: 0x8, addend: 0x0, symName: '___67-[PTProtocol sendFrameOfType:tag:withPayload:overChannel:callback:]_block_invoke', symObjAddr: 0x3F0, symBinAddr: 0x9E30, symSize: 0xA0 }
+  - { offsetInCU: 0x8AD, offset: 0xA1581, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x490, symBinAddr: 0x9ED0, symSize: 0x10 }
+  - { offsetInCU: 0x8D6, offset: 0xA15AA, size: 0x8, addend: 0x0, symName: '-[PTProtocol readFrameOverChannel:callback:]', symObjAddr: 0x4A8, symBinAddr: 0x9EE0, symSize: 0xDC }
+  - { offsetInCU: 0x990, offset: 0xA1664, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x584, symBinAddr: 0x9FBC, symSize: 0x10 }
+  - { offsetInCU: 0x9B5, offset: 0xA1689, size: 0x8, addend: 0x0, symName: ___Block_byref_object_dispose_, symObjAddr: 0x594, symBinAddr: 0x9FCC, symSize: 0x8 }
+  - { offsetInCU: 0x9D4, offset: 0xA16A8, size: 0x8, addend: 0x0, symName: '___44-[PTProtocol readFrameOverChannel:callback:]_block_invoke', symObjAddr: 0x59C, symBinAddr: 0x9FD4, symSize: 0x24C }
+  - { offsetInCU: 0xB82, offset: 0xA1856, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b40r, symObjAddr: 0x7E8, symBinAddr: 0xA220, symSize: 0x3C }
+  - { offsetInCU: 0xBAB, offset: 0xA187F, size: 0x8, addend: 0x0, symName: '-[PTProtocol readPayloadOfSize:overChannel:callback:]', symObjAddr: 0x850, symBinAddr: 0xA25C, symSize: 0xE0 }
+  - { offsetInCU: 0xC53, offset: 0xA1927, size: 0x8, addend: 0x0, symName: '___53-[PTProtocol readPayloadOfSize:overChannel:callback:]_block_invoke', symObjAddr: 0x930, symBinAddr: 0xA33C, symSize: 0x194 }
+  - { offsetInCU: 0xD8E, offset: 0xA1A62, size: 0x8, addend: 0x0, symName: '-[PTProtocol readAndDiscardDataOfSize:overChannel:callback:]', symObjAddr: 0xAC4, symBinAddr: 0xA4D0, symSize: 0xA0 }
+  - { offsetInCU: 0xE22, offset: 0xA1AF6, size: 0x8, addend: 0x0, symName: '___60-[PTProtocol readAndDiscardDataOfSize:overChannel:callback:]_block_invoke', symObjAddr: 0xB64, symBinAddr: 0xA570, symSize: 0xC8 }
+  - { offsetInCU: 0xEF7, offset: 0xA1BCB, size: 0x8, addend: 0x0, symName: '-[PTProtocol readFramesOverChannel:onFrame:]', symObjAddr: 0xC2C, symBinAddr: 0xA638, symSize: 0xC4 }
+  - { offsetInCU: 0xF4A, offset: 0xA1C1E, size: 0x8, addend: 0x0, symName: '___44-[PTProtocol readFramesOverChannel:onFrame:]_block_invoke', symObjAddr: 0xCF0, symBinAddr: 0xA6FC, symSize: 0xC4 }
+  - { offsetInCU: 0x1020, offset: 0xA1CF4, size: 0x8, addend: 0x0, symName: '___44-[PTProtocol readFramesOverChannel:onFrame:]_block_invoke_2', symObjAddr: 0xDB4, symBinAddr: 0xA7C0, symSize: 0x1C }
+  - { offsetInCU: 0x108F, offset: 0xA1D63, size: 0x8, addend: 0x0, symName: '-[PTProtocol .cxx_destruct]', symObjAddr: 0xE3C, symBinAddr: 0xA7DC, symSize: 0xC }
+  - { offsetInCU: 0x10C2, offset: 0xA1D96, size: 0x8, addend: 0x0, symName: '-[_PTDispatchData initWithDispatchData:]', symObjAddr: 0xE48, symBinAddr: 0xA7E8, symSize: 0x88 }
+  - { offsetInCU: 0x110B, offset: 0xA1DDF, size: 0x8, addend: 0x0, symName: '-[_PTDispatchData .cxx_destruct]', symObjAddr: 0xED0, symBinAddr: 0xA870, symSize: 0xC }
+  - { offsetInCU: 0x113F, offset: 0xA1E13, size: 0x8, addend: 0x0, symName: '-[NSData(PTProtocol) createReferencingDispatchData]', symObjAddr: 0xEDC, symBinAddr: 0xA87C, symSize: 0x80 }
+  - { offsetInCU: 0x1194, offset: 0xA1E68, size: 0x8, addend: 0x0, symName: '___51-[NSData(PTProtocol) createReferencingDispatchData]_block_invoke', symObjAddr: 0xF5C, symBinAddr: 0xA8FC, symSize: 0x8 }
+  - { offsetInCU: 0x11F4, offset: 0xA1EC8, size: 0x8, addend: 0x0, symName: '+[NSData(PTProtocol) dictionaryWithContentsOfData:]', symObjAddr: 0x1020, symBinAddr: 0xA9B8, symSize: 0x3C }
+  - { offsetInCU: 0x1239, offset: 0xA1F0D, size: 0x8, addend: 0x0, symName: '-[NSDictionary(PTProtocol) createReferencingDispatchData]', symObjAddr: 0x105C, symBinAddr: 0xA9F4, symSize: 0x8C }
+  - { offsetInCU: 0x27, offset: 0xA2608, size: 0x8, addend: 0x0, symName: '+[PTUSBHub sharedHub]', symObjAddr: 0x0, symBinAddr: 0xAA80, symSize: 0x40 }
+  - { offsetInCU: 0x41, offset: 0xA2622, size: 0x8, addend: 0x0, symName: _PTUSBHubErrorDomain, symObjAddr: 0x27B8, symBinAddr: 0x145A0, symSize: 0x0 }
+  - { offsetInCU: 0x61, offset: 0xA2642, size: 0x8, addend: 0x0, symName: _PTUSBDeviceDidAttachNotification, symObjAddr: 0x27C0, symBinAddr: 0x145A8, symSize: 0x0 }
+  - { offsetInCU: 0x7C, offset: 0xA265D, size: 0x8, addend: 0x0, symName: _PTUSBDeviceDidDetachNotification, symObjAddr: 0x27C8, symBinAddr: 0x145B0, symSize: 0x0 }
+  - { offsetInCU: 0x92, offset: 0xA2673, size: 0x8, addend: 0x0, symName: _PTUSBHubNotificationKeyDeviceID, symObjAddr: 0x27D0, symBinAddr: 0x145B8, symSize: 0x0 }
+  - { offsetInCU: 0xB8, offset: 0xA2699, size: 0x8, addend: 0x0, symName: _PTUSBHubNotificationKeyMessageType, symObjAddr: 0x27D8, symBinAddr: 0x145C0, symSize: 0x0 }
+  - { offsetInCU: 0xCE, offset: 0xA26AF, size: 0x8, addend: 0x0, symName: _PTUSBHubNotificationKeyProperties, symObjAddr: 0x27E0, symBinAddr: 0x145C8, symSize: 0x0 }
+  - { offsetInCU: 0xD8, offset: 0xA26B9, size: 0x8, addend: 0x0, symName: '+[PTUSBHub sharedHub]', symObjAddr: 0x0, symBinAddr: 0xAA80, symSize: 0x40 }
+  - { offsetInCU: 0x102, offset: 0xA26E3, size: 0x8, addend: 0x0, symName: _sharedHub.gSharedHub, symObjAddr: 0xDE88, symBinAddr: 0x1A6C8, symSize: 0x0 }
+  - { offsetInCU: 0x118, offset: 0xA26F9, size: 0x8, addend: 0x0, symName: _sharedHub.onceToken, symObjAddr: 0xDE90, symBinAddr: 0x1A6D0, symSize: 0x0 }
+  - { offsetInCU: 0x21B, offset: 0xA27FC, size: 0x8, addend: 0x0, symName: '+[PTUSBChannel packetDictionaryWithPacketType:payload:]', symObjAddr: 0x668, symBinAddr: 0xB07C, symSize: 0x118 }
+  - { offsetInCU: 0x247, offset: 0xA2828, size: 0x8, addend: 0x0, symName: '_packetDictionaryWithPacketType:payload:.bundleName', symObjAddr: 0xDE98, symBinAddr: 0x1A6D8, symSize: 0x0 }
+  - { offsetInCU: 0x25E, offset: 0xA283F, size: 0x8, addend: 0x0, symName: '_packetDictionaryWithPacketType:payload:.bundleVersion', symObjAddr: 0xDEA0, symBinAddr: 0x1A6E0, symSize: 0x0 }
+  - { offsetInCU: 0x275, offset: 0xA2856, size: 0x8, addend: 0x0, symName: '_packetDictionaryWithPacketType:payload:.onceToken', symObjAddr: 0xDEA8, symBinAddr: 0x1A6E8, symSize: 0x0 }
+  - { offsetInCU: 0x311, offset: 0xA28F2, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel scheduleReadPacketWithCallback:]', symObjAddr: 0x1204, symBinAddr: 0xBC08, symSize: 0xA0 }
+  - { offsetInCU: 0x4AA, offset: 0xA2A8B, size: 0x8, addend: 0x0, symName: '___21+[PTUSBHub sharedHub]_block_invoke', symObjAddr: 0x40, symBinAddr: 0xAAC0, symSize: 0x50 }
+  - { offsetInCU: 0x4D1, offset: 0xA2AB2, size: 0x8, addend: 0x0, symName: '___21+[PTUSBHub sharedHub]_block_invoke_2', symObjAddr: 0x90, symBinAddr: 0xAB10, symSize: 0x2C }
+  - { offsetInCU: 0x508, offset: 0xA2AE9, size: 0x8, addend: 0x0, symName: '-[PTUSBHub init]', symObjAddr: 0xBC, symBinAddr: 0xAB3C, symSize: 0x58 }
+  - { offsetInCU: 0x53F, offset: 0xA2B20, size: 0x8, addend: 0x0, symName: '-[PTUSBHub listenOnQueue:onStart:onEnd:]', symObjAddr: 0x114, symBinAddr: 0xAB94, symSize: 0x140 }
+  - { offsetInCU: 0x5E7, offset: 0xA2BC8, size: 0x8, addend: 0x0, symName: '___40-[PTUSBHub listenOnQueue:onStart:onEnd:]_block_invoke', symObjAddr: 0x254, symBinAddr: 0xACD4, symSize: 0xC }
+  - { offsetInCU: 0x636, offset: 0xA2C17, size: 0x8, addend: 0x0, symName: '-[PTUSBHub connectToDevice:port:onStart:onEnd:]', symObjAddr: 0x270, symBinAddr: 0xACE0, symSize: 0x1E4 }
+  - { offsetInCU: 0x6F6, offset: 0xA2CD7, size: 0x8, addend: 0x0, symName: '___47-[PTUSBHub connectToDevice:port:onStart:onEnd:]_block_invoke', symObjAddr: 0x454, symBinAddr: 0xAEC4, symSize: 0xBC }
+  - { offsetInCU: 0x7BE, offset: 0xA2D9F, size: 0x8, addend: 0x0, symName: '-[PTUSBHub handleBroadcastPacket:]', symObjAddr: 0x56C, symBinAddr: 0xAF80, symSize: 0xF0 }
+  - { offsetInCU: 0x811, offset: 0xA2DF2, size: 0x8, addend: 0x0, symName: '-[PTUSBHub .cxx_destruct]', symObjAddr: 0x65C, symBinAddr: 0xB070, symSize: 0xC }
+  - { offsetInCU: 0x844, offset: 0xA2E25, size: 0x8, addend: 0x0, symName: '___55+[PTUSBChannel packetDictionaryWithPacketType:payload:]_block_invoke', symObjAddr: 0x780, symBinAddr: 0xB194, symSize: 0xC0 }
+  - { offsetInCU: 0x88D, offset: 0xA2E6E, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel init]', symObjAddr: 0x840, symBinAddr: 0xB254, symSize: 0x58 }
+  - { offsetInCU: 0x8C5, offset: 0xA2EA6, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel dealloc]', symObjAddr: 0x898, symBinAddr: 0xB2AC, symSize: 0x50 }
+  - { offsetInCU: 0x8F9, offset: 0xA2EDA, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel valid]', symObjAddr: 0x8E8, symBinAddr: 0xB2FC, symSize: 0x10 }
+  - { offsetInCU: 0x931, offset: 0xA2F12, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel dispatchChannel]', symObjAddr: 0x8F8, symBinAddr: 0xB30C, symSize: 0x8 }
+  - { offsetInCU: 0x969, offset: 0xA2F4A, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel fileDescriptor]', symObjAddr: 0x900, symBinAddr: 0xB314, symSize: 0x8 }
+  - { offsetInCU: 0x9C2, offset: 0xA2FA3, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel openOnQueue:error:onEnd:]', symObjAddr: 0x908, symBinAddr: 0xB31C, symSize: 0x230 }
+  - { offsetInCU: 0xC1F, offset: 0xA3200, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel openOnQueue:error:onEnd:].cold.1', symObjAddr: 0x1DC8, symBinAddr: 0xC97C, symSize: 0x28 }
+  - { offsetInCU: 0xC37, offset: 0xA3218, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel openOnQueue:error:onEnd:].cold.2', symObjAddr: 0x1DF0, symBinAddr: 0xC9A4, symSize: 0x28 }
+  - { offsetInCU: 0xC4F, offset: 0xA3230, size: 0x8, addend: 0x0, symName: '___40-[PTUSBChannel openOnQueue:error:onEnd:]_block_invoke', symObjAddr: 0xB38, symBinAddr: 0xB54C, symSize: 0x94 }
+  - { offsetInCU: 0xD09, offset: 0xA32EA, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel listenWithBroadcastHandler:callback:]', symObjAddr: 0xBDC, symBinAddr: 0xB5E0, symSize: 0xD8 }
+  - { offsetInCU: 0xD70, offset: 0xA3351, size: 0x8, addend: 0x0, symName: '___52-[PTUSBChannel listenWithBroadcastHandler:callback:]_block_invoke', symObjAddr: 0xCB4, symBinAddr: 0xB6B8, symSize: 0x84 }
+  - { offsetInCU: 0xE15, offset: 0xA33F6, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel errorFromPlistResponse:error:]', symObjAddr: 0xD38, symBinAddr: 0xB73C, symSize: 0x164 }
+  - { offsetInCU: 0xEBC, offset: 0xA349D, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel nextPacketTag]', symObjAddr: 0xE9C, symBinAddr: 0xB8A0, symSize: 0x14 }
+  - { offsetInCU: 0xEF4, offset: 0xA34D5, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel sendRequest:callback:]', symObjAddr: 0xEB0, symBinAddr: 0xB8B4, symSize: 0xC8 }
+  - { offsetInCU: 0xF5B, offset: 0xA353C, size: 0x8, addend: 0x0, symName: '___37-[PTUSBChannel sendRequest:callback:]_block_invoke', symObjAddr: 0xF78, symBinAddr: 0xB97C, symSize: 0xCC }
+  - { offsetInCU: 0xFEA, offset: 0xA35CB, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel setNeedsReadingPacket]', symObjAddr: 0x1044, symBinAddr: 0xBA48, symSize: 0x14 }
+  - { offsetInCU: 0x101C, offset: 0xA35FD, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel scheduleReadPacketWithBroadcastHandler:]', symObjAddr: 0x1058, symBinAddr: 0xBA5C, symSize: 0x8C }
+  - { offsetInCU: 0x1064, offset: 0xA3645, size: 0x8, addend: 0x0, symName: '___55-[PTUSBChannel scheduleReadPacketWithBroadcastHandler:]_block_invoke', symObjAddr: 0x10E4, symBinAddr: 0xBAE8, symSize: 0x120 }
+  - { offsetInCU: 0x106F, offset: 0xA3650, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel scheduleReadPacketWithBroadcastHandler:].cold.1', symObjAddr: 0x1E18, symBinAddr: 0xC9CC, symSize: 0x28 }
+  - { offsetInCU: 0x1087, offset: 0xA3668, size: 0x8, addend: 0x0, symName: '___55-[PTUSBChannel scheduleReadPacketWithBroadcastHandler:]_block_invoke', symObjAddr: 0x10E4, symBinAddr: 0xBAE8, symSize: 0x120 }
+  - { offsetInCU: 0x11AC, offset: 0xA378D, size: 0x8, addend: 0x0, symName: '___47-[PTUSBChannel scheduleReadPacketWithCallback:]_block_invoke', symObjAddr: 0x12A4, symBinAddr: 0xBCA8, symSize: 0x16C }
+  - { offsetInCU: 0x133E, offset: 0xA391F, size: 0x8, addend: 0x0, symName: _usbmux_packet_alloc, symObjAddr: 0x1410, symBinAddr: 0xBE14, symSize: 0x48 }
+  - { offsetInCU: 0x136A, offset: 0xA394B, size: 0x8, addend: 0x0, symName: _usbmux_packet_alloc, symObjAddr: 0x1410, symBinAddr: 0xBE14, symSize: 0x48 }
+  - { offsetInCU: 0x13D4, offset: 0xA39B5, size: 0x8, addend: 0x0, symName: '___47-[PTUSBChannel scheduleReadPacketWithCallback:]_block_invoke_2', symObjAddr: 0x1458, symBinAddr: 0xBE5C, symSize: 0x384 }
+  - { offsetInCU: 0x13DF, offset: 0xA39C0, size: 0x8, addend: 0x0, symName: '___47-[PTUSBChannel scheduleReadPacketWithCallback:]_block_invoke.cold.1', symObjAddr: 0x1E40, symBinAddr: 0xC9F4, symSize: 0x28 }
+  - { offsetInCU: 0x1414, offset: 0xA39F5, size: 0x8, addend: 0x0, symName: _usbmux_packet_alloc.cold.1, symObjAddr: 0x1E68, symBinAddr: 0xCA1C, symSize: 0x28 }
+  - { offsetInCU: 0x147B, offset: 0xA3A5C, size: 0x8, addend: 0x0, symName: '___47-[PTUSBChannel scheduleReadPacketWithCallback:]_block_invoke_2', symObjAddr: 0x1458, symBinAddr: 0xBE5C, symSize: 0x384 }
+  - { offsetInCU: 0x16DE, offset: 0xA3CBF, size: 0x8, addend: 0x0, symName: '___47-[PTUSBChannel scheduleReadPacketWithCallback:]_block_invoke_2.cold.1', symObjAddr: 0x1E90, symBinAddr: 0xCA44, symSize: 0x28 }
+  - { offsetInCU: 0x177A, offset: 0xA3D5B, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel sendPacketOfType:overProtocol:tag:payload:callback:]', symObjAddr: 0x17DC, symBinAddr: 0xC1E0, symSize: 0x154 }
+  - { offsetInCU: 0x18E0, offset: 0xA3EC1, size: 0x8, addend: 0x0, symName: '___67-[PTUSBChannel sendPacketOfType:overProtocol:tag:payload:callback:]_block_invoke', symObjAddr: 0x1930, symBinAddr: 0xC334, symSize: 0x14 }
+  - { offsetInCU: 0x190C, offset: 0xA3EED, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel sendPacketOfType:overProtocol:tag:payload:callback:].cold.1', symObjAddr: 0x1EB8, symBinAddr: 0xCA6C, symSize: 0x28 }
+  - { offsetInCU: 0x1924, offset: 0xA3F05, size: 0x8, addend: 0x0, symName: '___67-[PTUSBChannel sendPacketOfType:overProtocol:tag:payload:callback:]_block_invoke', symObjAddr: 0x1930, symBinAddr: 0xC334, symSize: 0x14 }
+  - { offsetInCU: 0x198F, offset: 0xA3F70, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel sendPacket:tag:callback:]', symObjAddr: 0x1944, symBinAddr: 0xC348, symSize: 0xBC }
+  - { offsetInCU: 0x1A2C, offset: 0xA400D, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel sendDispatchData:callback:]', symObjAddr: 0x1A00, symBinAddr: 0xC404, symSize: 0x9C }
+  - { offsetInCU: 0x1AE4, offset: 0xA40C5, size: 0x8, addend: 0x0, symName: '___42-[PTUSBChannel sendDispatchData:callback:]_block_invoke', symObjAddr: 0x1A9C, symBinAddr: 0xC4A0, symSize: 0x94 }
+  - { offsetInCU: 0x1B89, offset: 0xA416A, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel sendData:callback:]', symObjAddr: 0x1B30, symBinAddr: 0xC534, symSize: 0xF4 }
+  - { offsetInCU: 0x1C1B, offset: 0xA41FC, size: 0x8, addend: 0x0, symName: '___34-[PTUSBChannel sendData:callback:]_block_invoke', symObjAddr: 0x1C24, symBinAddr: 0xC628, symSize: 0x8 }
+  - { offsetInCU: 0x1C59, offset: 0xA423A, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel readFromOffset:length:callback:]', symObjAddr: 0x1C2C, symBinAddr: 0xC630, symSize: 0xA8 }
+  - { offsetInCU: 0x1CF2, offset: 0xA42D3, size: 0x8, addend: 0x0, symName: '___47-[PTUSBChannel readFromOffset:length:callback:]_block_invoke', symObjAddr: 0x1CD4, symBinAddr: 0xC6D8, symSize: 0x90 }
+  - { offsetInCU: 0x1D9E, offset: 0xA437F, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel cancel]', symObjAddr: 0x1D64, symBinAddr: 0xC768, symSize: 0x14 }
+  - { offsetInCU: 0x1DFB, offset: 0xA43DC, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel stop]', symObjAddr: 0x1D78, symBinAddr: 0xC77C, symSize: 0x14 }
+  - { offsetInCU: 0x1E44, offset: 0xA4425, size: 0x8, addend: 0x0, symName: '-[PTUSBChannel .cxx_destruct]', symObjAddr: 0x1D8C, symBinAddr: 0xC790, symSize: 0x3C }
+...
