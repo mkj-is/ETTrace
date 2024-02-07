@@ -18,7 +18,18 @@ xcodebuild archive \
  SKIP_INSTALL=NO \
  CLANG_CXX_LANGUAGE_STANDARD=c++17
 
+ xcodebuild archive \
+ -scheme ETTrace \
+ -archivePath ./ETTrace-tvos.xcarchive \
+ -sdk appletvos \
+ -destination 'generic/platform=tvOS' \
+ BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
+ INSTALL_PATH='Library/Frameworks' \
+ SKIP_INSTALL=NO \
+ CLANG_CXX_LANGUAGE_STANDARD=c++17
+
 xcodebuild -create-xcframework \
  -framework ./ETTrace-iphonesimulator.xcarchive/Products/Library/Frameworks/ETTrace.framework \
  -framework ./ETTrace-iphoneos.xcarchive/Products/Library/Frameworks/ETTrace.framework \
+ -framework ./ETTrace-tvos.xcarchive/Products/Library/Frameworks/ETTrace.framework \
  -output ./ETTrace.xcframework
